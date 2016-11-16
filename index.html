@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.vishna{
+					background-image: url(vishna.png) no-repeat center center ;
+					background-size:80px;
+				}
+		.sliva{
+					background: url(sliva.jpg) no-repeat center center;
+					background-size:80px;
+				}
+		.limon{
+					background: url(limon.jpg) no-repeat center center;
+					background-size:80px;
+				}
+	</style>
+	<title>Однорукий Бандит</title>
+</head>
+<body>
+	<div class = "body">
+		<header></header>
+		
+		<table>
+			<tr>
+				<td id = "oneWindow"></td ><td id = "twoWindow"></td><td id = "threeWindow"></td>
+			</tr>	
+		</table>
+			<div>
+				<input type="number" readonly maxlength="3" id = "input"  value ="10">
+			</div>
+			<div>
+				<p>
+					 <img src="vishna.png" width="20" height="20"> = 10<br>
+					 <img src="sliva.jpg" width="20" height="20"> =  &nbsp7 <br>
+					 <img src="limon.jpg" width="20" height="20"> =  &nbsp3 <br>
+				</p>
+			</div>
+		<div class="button">
+			<button  id = "button" >ЖМИ!</button>
+		</div>
+	</div>
+	<script src="code.js"></script>
+</body>
+</html>

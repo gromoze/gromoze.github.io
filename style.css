@@ -1,0 +1,69 @@
+
+body{
+	background: url(fon.jpg) no-repeat center center;
+}
+.body{
+	background: url(niceimage.ru-793.jpg) repeat center center;
+	width: 258px;
+	height:350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	outline:5px solid black ;
+}
+
+header{
+	height: 115px;
+	width: 258px;
+	background-image: url("img141728.jpg");
+	 
+}
+ input{
+ 	width: 30px;
+ 	color:red;
+ 	margin-left: 30px;
+ 	margin-top: 5px;
+
+ }
+
+table{
+	margin-left: 2px;
+}
+
+td{
+	height: 80px;
+	width: 80px; 
+	background-color: white;
+}
+
+.button{
+	margin:10px 80px;
+}
+
+button{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: red;
+	color:white;
+	font-size: 30px;
+}
+
+.vishna{
+	background: url(vishna.png) no-repeat center center;
+	background-size:80px;
+}
+.sliva{
+	background: url(sliva.png) no-repeat center center;
+	background-size:80px;
+}
+.limon{
+	background: url(limon.jpg) no-repeat center center;
+	background-size:80px;
+}
+
+p{
+	float:right;
+	color:white;
+	margin-right: 10px;
+}
